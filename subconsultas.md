@@ -47,7 +47,7 @@ ON
 ORDER BY 
     total_mas_alto DESC;
 
-    ![cap2](capturas/cap2.jpg)
+    ![cap2](capturas/cap2.png)
 3. Listar las facturas donde sus totales sean mayores al promedio de las facturas
           fecha_factura | total
 SENTENCIA: 
@@ -60,4 +60,4 @@ WHERE
     total > (SELECT AVG(total) FROM invoice)
 ORDER BY 
     fecha_factura ASC;
-    ![cap3](capturas/cap3.jpg)
+    ![cap3](capturas/cap3.png)

@@ -18,7 +18,7 @@ GROUP BY
 ORDER BY 
     nro_facturas DESC;
 
-![cap1](capturas/cap1.jpg)
+![cap1](capturas/cap1.png)
 
 
 2. Listar nombre y correo de los clientes junto a su compra mas cara realizada.

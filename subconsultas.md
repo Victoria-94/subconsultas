@@ -61,3 +61,19 @@ WHERE
 ORDER BY 
     fecha_factura ASC;
     ![cap3](capturas/cap3.png)
+
+
+
+SELECCIONAR DOS EJEMPLOS ADICIONALES 
+
+SENTENCIA SELECT 
+    title AS titulo, 
+    total_attendees
+    
+FROM 
+    conference 
+WHERE 
+    total_attendees > (SELECT AVG(total_attendees) FROM conference)
+ORDER BY 
+    title ASC;
+ ![cap4](capturas/cap4.png)
